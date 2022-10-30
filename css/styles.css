@@ -1,0 +1,13 @@
+:root{
+--background-color: #F5F5F5
+}
+
+
+/* --------body-------- */
+body{
+font-family: Roboto;
+background-color: var(background-color);
+}
+.list{
+list-style: none;
+}
