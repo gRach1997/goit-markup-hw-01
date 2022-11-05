@@ -32,7 +32,7 @@ color: var(--main-color-page);
 .list{
 list-style: none;
 }
-.current{
+.list .current{
 color: var(--main-c-ff)
 }
 .head {
