@@ -3,7 +3,7 @@
 --main-color-page: #212121;
 --head-background-c: #FFFFFF;
 --studio-c: #000000;
---studo-logo-c: #2196F3;
+--studio-logo-c: #2196F3;
 --nav-link-c: #212121;
 --nav-link-c-ff: #2196F3;
 --head-link-c: #757575;
@@ -32,7 +32,9 @@ color: var(--main-color-page);
 .list{
 list-style: none;
 }
-
+.current{
+color: var(--main-c-ff)
+}
 .head {
 background: var(--head-background-c);
 }
@@ -53,7 +55,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: calc(31/26);
 letter-spacing: 0.03em;
-color: var(--studo-logo-c);
+color: var(--studio-logo-c);
 }
 
 .head-nav-link {
