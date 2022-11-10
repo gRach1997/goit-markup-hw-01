@@ -6,25 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/styles.css"/>
   </head>
   <body>
     <header class="head">
-      <nav class="head-nav">
-        <a class="head-nav-studio" href="./index.html"><span class="head-nav-logo">Web</span>Studio</a>
-        <ul class="list">
-          <li>
-            <a class="head-nav-link current" href="./index.html">Студія</a>
-          </li>
-          <li>
-            <a class="head-nav-link" href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li>
-            <a class="head-nav-link" href="./contact.html">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-        <ul class="list">
+      <div class="container head-container">
+        <nav class="head-nav">
+          <a class="head-nav-studio" href="./index.html"><span class="head-nav-logo">Web</span>Studio</a>
+          <ul class="list nav-list">
+            <li>
+              <a class="head-nav-link current" href="./index.html">Студія</a>
+            </li>
+            <li>
+              <a class="head-nav-link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li>
+              <a class="head-nav-link" href="./contact.html">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list cont-list">
           <li>
             <a class="head-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
@@ -32,15 +34,19 @@
             <a class="head-link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
+      </div>
     </header>
     <main class="maini">
-      <section class="maini-section">
+      <section class="maini-section section">
+        <div class="container">
         <h1 class="maini-section-h">Ефективні рішення для <br />вашого бізнесу</h1>
         <button class="maini-section-button btn" type="button">Замовити послугу</button>
+        </div>
       </section>
-      <section>
-        <h2>увага до деталей</h2>
-        <ul class="list">
+      <section class="attention section">
+        <div class="container">
+        <h2 class="hiden">увага до деталей</h2>
+        <ul class="list attention-list">
           <li>
             <h3 class="maini-h">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="maini-p">
@@ -69,10 +75,12 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
-      <section class="works">
+      <section class="works section">
+        <div class="container">
         <h2 class="works-h">Чим ми займаємося</h2>
-        <ul class="list">
+        <ul class="list works-deal">
           <li>
             <img src="./images/box_1.jpg" alt="програмування" width="370" />
           </li>
@@ -83,18 +91,22 @@
             <img src="./images/box_3.jpg" alt="графіка" width="370" />
           </li>
         </ul>
+      </div>
       </section>
-      <section class="workers">
+      <section class="workers section">
+        <div class="container">
         <h2 class="workers-team">Наша команда</h2>
-        <ul class="list">
+        <ul class="list team-list">
           <li>
             <img
               src="./images/igor.jpg"
               alt="Учасник команди Ігор"
               width="270"
             />
+            <div class="member-team">
             <h3 class="workers-h">Ігор Дем'яненко</h3>
             <p class="workers-p" lang="en">Product Designer</p>
+            </div>
           </li>
           <li>
             <img
@@ -102,8 +114,10 @@
               alt="Учасник команди Ольга"
               width="270"
             />
+            <div class="member-team">
             <h3 class="workers-h">Ольга Рєпіна</h3>
             <p class="workers-p" lang="en">Frontend Developer</p>
+            </div>
           </li>
           <li>
             <img
@@ -111,8 +125,10 @@
               alt="Учасник команди Микола"
               width="270"
             />
+            <div class="member-team">
             <h3 class="workers-h">Микола Тарасов</h3>
             <p class="workers-p" lang="en">Marketing</p>
+            </div>
           </li>
           <li>
             <img
@@ -120,23 +136,30 @@
               alt="Учасник команди Михайло"
               width="270"
             />
+            <div class="member-team">
             <h3 class="workers-h">Михайло Єрмаков</h3>
             <p class="workers-p" lang="en">UI Designer</p>
+            </div>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <footer class="footer">
+      <div class="container">
+      <div class="footer-logo">
       <a class="footer-studio" href="./index.html"><span class="footer-web">Web</span>Studio</a>
-       <address class="footer-addr">м. Київ, пр-т Лесі Українки, 26</address>
+      </div>
+        <address class="footer-addr">м. Київ, пр-т Лесі Українки, 26</address>
        <ul class="list"> 
-        <li>
+        <li class="footer-list">
           <a class="footer-link" href="meilto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li>
+        <li class="footer-list">
           <a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
+        </li>      
       </ul>
+    </div>
     </footer>
   </body>
 </html>
